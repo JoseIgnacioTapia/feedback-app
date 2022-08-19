@@ -1,0 +1,29 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "This is feedback item 1 coming from the backend"
+    },
+    {
+      "id": 2,
+      "rating": 8,
+      "text": "This is feedback item 2 coming from the backend"
+    },
+    {
+      "id": 3,
+      "rating": 8,
+      "text": "This is feedback item 3 coming from the backend"
+    },
+    {
+      "content": "Postman is a good tool for testing REST apis",
+      "important": true,
+      "id": 4
+    },
+    {
+      "content": "Postman is a good tool for testing REST apis",
+      "important": true,
+      "id": 5
+    }
+  ]
+}
