@@ -14,16 +14,6 @@
       "id": 3,
       "rating": 8,
       "text": "This is feedback item 3 coming from the backend"
-    },
-    {
-      "content": "Postman is a good tool for testing REST apis",
-      "important": true,
-      "id": 4
-    },
-    {
-      "content": "Postman is a good tool for testing REST apis",
-      "important": true,
-      "id": 5
     }
   ]
 }
