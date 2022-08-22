@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 export const FeedbackContext = createContext();
 
@@ -59,7 +58,7 @@ const FeedbackProvider = ({ children }) => {
       body: JSON.stringify(updItem),
     });
 
-    const data = await response.json();
+    // const data = await response.json();
 
     // setFeedback(
     //   feedback.map(item => (item.id === id ? { ...item, ...data } : item))
