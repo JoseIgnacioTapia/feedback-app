@@ -50,7 +50,7 @@ const FeedbackProvider = ({ children }) => {
 
   // Update feedback item
   const updateFeedback = async (id, updItem) => {
-    const response = await fetch(`/feedback/${id}`, {
+    await fetch(`/feedback/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
